@@ -93,7 +93,7 @@ def eZadar_scrap():
         header = ["ID","LINK", "NASLOV", "AUTOR", "POTPUNI TEKST", "DATUM OBJAVLJIVANJA", "KATEGORIJA", "FACEBOOK SHARES", "FACEBOOK LIKES", "TAG"]
         writer.writerow(header)
         
-        articleID = 1003
+        articleID = 0
         
         # Initialize Firefrox browser with default user
         # Deprecated way
@@ -251,10 +251,10 @@ def csv_to_json(csvFilePath, jsonFilePath):
         jsonf.write(jsonString)
 
 if __name__ == '__main__':
-    #dohvati_kategorije()
+    dohvati_kategorije()
     dohvati_linkove_clanaka()
     eZadar_scrap()  
     
     csvFilePath = r'eZadarPodaci.csv'
     jsonFilePath = r'eZadarPodaci.json'
-    #csv_to_json(csvFilePath, jsonFilePath)
+    csv_to_json(csvFilePath, jsonFilePath)
