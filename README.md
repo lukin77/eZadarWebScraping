@@ -7,7 +7,7 @@ OPIS ZADATKA
 TEMA PROJEKNIH ZADATAKA: Stvaranje znanja na temelju prikupljenih podataka s weba (novinskih
 portala ili društvenih mreža)
 
-1. DIO PROJEKTNOG ZADATKA
+1.DIO PROJEKTNOG ZADATKA
 
 Konačan cilj projekta je analiziranje podataka koji su prikupljeni s weba automatskim postupcima te
 generiranje novog znanja koje je temeljeno na otkrivenim činjenicama. Nakon faze prikupljanja,
@@ -59,6 +59,7 @@ preuzimati (skrepati) podatke. Primjeri:
   • …
 
 UPUTE ZA PRIKUPLJANJE I ORGANIZACIJU PODATAKA
+
 Na pojedinim novinskim portalima nalaze se slični podaci poput naslova pojedinog članka, pripadnog
 teksta za svaki članak/vijest, naziv autora članka, datum objave, komentari ispod članka, ključne riječi,
 tagovi i sl. Međutim, organizacija podataka i struktura HTML-a se bitno razlikuje za svaki pojedini web
@@ -132,6 +133,7 @@ portala preuzimati, mogu u kasnijoj fazi biti vraćeni na fazu prikupljanja (u s
 pojedini važan podatak).
 
 PREDAJA 1. DIJELA PROJEKTA
+
 Kao rezultat prvog dijela projekta, u sustav Merlin je potrebno predati CSV i JSON file s preuzetim
 podacima sa zadanog portala. CSV i JSON file sadrže iste podatke, samo je format datoteke drugačiji.
 Datoteke nazovite prema nazivu portala s kojeg ste prikupljali podatke – npr. dnevnik.csv i
@@ -142,6 +144,7 @@ vezanu za tematiku pandemije izazvane koronavirusom. Analiza se vrši u nekoliko
 dalje u opisu.
 
 I. KVANTIFICIRANJE ČLANAKA U MEDIJIMA
+
 Cilj prvog koraka u analizi je kvantificirati broj vijesti (objava; članaka) u medijskom prostoru koji su u
 2020. godini pisali i izvještavali o koronavirusu. Student samostalno izrađuje listu pojmova vezanih za
 pandemiju izazvanu koronavirusom za koje smatra da su se često pojavljivale u medijskom prostoru, a
@@ -212,6 +215,7 @@ dodatnu (neku drugu) mjeru kojom bi se mogle mjeriti (kvantificirati) promjene u
 (dodatni bodovi).
 
 IV. DODATNA ANALIZA
+
 Studenti mogu samostalno predložiti što bi se još moglo analizirati vezano za korona tematiku na
 njihovom portalu za dodatne bodove.
 Za cijeli projekt potrebno je napisati kratku tehničku dokumentaciju (kratko dokumentirati programski
