@@ -100,7 +100,6 @@ def eZadar_scrap():
         options = Options()
         profile = webdriver.FirefoxProfile('C:\\Users\\Boss\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\jq5cpfr7.default-release-1640173659683') # Windows
         #profile = webdriver.FirefoxProfile('/home/bluking/.mozilla/firefox/not30cpu.default-release') # Ubuntu
-        #profile = webdriver.FirefoxProfile('/home/bluking/.mozilla/firefox/duiotsmo.joezi')
         options.headless = True
         options.profile = profile
         driver = webdriver.Firefox(options=options)
