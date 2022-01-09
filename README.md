@@ -7,7 +7,7 @@ OPIS ZADATKA
 TEMA PROJEKNIH ZADATAKA: Stvaranje znanja na temelju prikupljenih podataka s weba (novinskih
 portala ili društvenih mreža)
 
-1.DIO PROJEKTNOG ZADATKA
+# 1.DIO PROJEKTNOG ZADATKA
 
 Konačan cilj projekta je analiziranje podataka koji su prikupljeni s weba automatskim postupcima te
 generiranje novog znanja koje je temeljeno na otkrivenim činjenicama. Nakon faze prikupljanja,
@@ -34,7 +34,7 @@ internetskim portalima ili dijelovima internetskih portala koji to dopuštaju. P
 javno objavljivati na drugim javnim web mjestima, a koristit će se u svrhu učenja i istraživanja na
 kolegiju UPZ.
 
-ODABIR PORTALA
+# ODABIR PORTALA
 
 Zadatak je proučiti hrvatske portale dostupne na webu te se odlučiti za jedan portal s kojeg ćete
 preuzimati (skrepati) podatke. Primjeri:
@@ -58,7 +58,7 @@ preuzimati (skrepati) podatke. Primjeri:
   • evarazdin.hr
   • …
 
-UPUTE ZA PRIKUPLJANJE I ORGANIZACIJU PODATAKA
+# UPUTE ZA PRIKUPLJANJE I ORGANIZACIJU PODATAKA
 
 Na pojedinim novinskim portalima nalaze se slični podaci poput naslova pojedinog članka, pripadnog
 teksta za svaki članak/vijest, naziv autora članka, datum objave, komentari ispod članka, ključne riječi,
@@ -114,7 +114,7 @@ Python biblioteke koje se mogu koristiti za izvlačenje podataka iz HTML-a:
 Osim navedenih, mogu se koristiti i drugi paketi koji sadrže pojedine module i funkcije koji mogu biti
 od pomoći u specifičnim programskih zahtjevima, npr. pandas, json, scv, i sl.
 
-OPIS PROCESA PRIKUPLJANJA PODATAKA
+# OPIS PROCESA PRIKUPLJANJA PODATAKA
 
 Proces prikupljanja podataka podijeljen je u 2 faze. U prvoj fazi potrebno je s web portala prikupiti sve
 linkove s dostupnim vijestima u zadanom vremenskom periodu. Vremenski period za koji podaci/vijesti
@@ -132,7 +132,7 @@ s radom i prikupljanjem podataka. Studenti koji se ne konzultiraju na vrijeme o 
 portala preuzimati, mogu u kasnijoj fazi biti vraćeni na fazu prikupljanja (u slučaju da su izostavili
 pojedini važan podatak).
 
-PREDAJA 1. DIJELA PROJEKTA
+# PREDAJA 1. DIJELA PROJEKTA
 
 Kao rezultat prvog dijela projekta, u sustav Merlin je potrebno predati CSV i JSON file s preuzetim
 podacima sa zadanog portala. CSV i JSON file sadrže iste podatke, samo je format datoteke drugačiji.
@@ -143,7 +143,7 @@ Svaki student za podatke koje je prikupio u 1. dijelu zadatka, na određenom web
 vezanu za tematiku pandemije izazvane koronavirusom. Analiza se vrši u nekoliko koraka, kako slijedi
 dalje u opisu.
 
-I. KVANTIFICIRANJE ČLANAKA U MEDIJIMA
+# I. KVANTIFICIRANJE ČLANAKA U MEDIJIMA
 
 Cilj prvog koraka u analizi je kvantificirati broj vijesti (objava; članaka) u medijskom prostoru koji su u
 2020. godini pisali i izvještavali o koronavirusu. Student samostalno izrađuje listu pojmova vezanih za
@@ -173,7 +173,7 @@ objava koje web portal sadrži. Primjerice, za sport, politiku, kulturu i sl. na
 je ukupno bilo objava u kategoriji, a koliko se objava odnosi na korona tematiku. Ovaj dio analize po
 kategorijama nije potrebno raditi po mjesecima, već za svih 12 mjeseci u cjelini i to samo za kategorije.
 
-II. VIZUALIZACIJA REZULTATA
+# II. VIZUALIZACIJA REZULTATA
 
 U ovom koraku analize potrebno je podatke dobivene analizom u prethodnom koraku prikazati
 vizualno koristeći razne vrste grafikona i prikaza.
@@ -187,7 +187,7 @@ Također, samostalno biraju hoće li vizualizacije biti statične ili dinamične
 interaktivnost da klika po grafikonu, samostalno bira kategoriju/boju/veličinu i sl.). Dakle, prema želji
 moguće je izraditi i web sučelje u kojem korisnik može sam kreirati grafikone i pregledavati rezultate.
 
-III. ANALIZA JEZIČNOG DISKURSA KORIŠTENOG NA PORTALU
+# III. ANALIZA JEZIČNOG DISKURSA KORIŠTENOG NA PORTALU
 
 Potrebno je analizirati najčešće korištene pojmove i termine u objavama koje se analiziraju, a vezane
 su za korona tematiku. Na temelju analize potrebno je zaključiti kakvim diskursom se na portalu pisalo
@@ -214,7 +214,7 @@ Promjene u diskursu prikazati tablično/grafički. Osim Jaccard indexa, studenti
 dodatnu (neku drugu) mjeru kojom bi se mogle mjeriti (kvantificirati) promjene u jezičnom diskursu
 (dodatni bodovi).
 
-IV. DODATNA ANALIZA
+# IV. DODATNA ANALIZA
 
 Studenti mogu samostalno predložiti što bi se još moglo analizirati vezano za korona tematiku na
 njihovom portalu za dodatne bodove.
